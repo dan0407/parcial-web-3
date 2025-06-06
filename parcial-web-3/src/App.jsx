@@ -14,6 +14,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
+        <Route path="/Dex" element={<Dex />} />
         <Route path="/Fild" element={<Fild />} />
         <Route path="/Lab" element={<Lab />} />
     
